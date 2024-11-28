@@ -1,0 +1,39 @@
+graph TD
+    A[Flamaclothing] 
+    A1[Departamento de IT]
+    A2[Departamento de OT]
+    A3[Impacto de la IA]
+
+    A1_1[Sistemas Informáticos]
+    A1_2[Redes y Comunicaciones]
+    A1_3[Desarrollo de Software]
+
+    A2_1[Automatización de Producción]
+    A2_2[Mantenimiento de Equipos]
+    A2_3[Gestión de Inventarios]
+    A2_4[Control de Calidad]
+
+    A3_1[IA en Diseño y Moda]
+    A3_2[IA en Predicción de Demanda]
+    A3_3[IA en Optimización de Producción]
+    A3_4[IA en Control de Calidad]
+
+    A --> A1
+    A --> A2
+    A --> A3
+    A1 --> A1_1
+    A1 --> A1_2
+    A1 --> A1_3
+    A2 --> A2_1
+    A2 --> A2_2
+    A2 --> A2_3
+    A2 --> A2_4
+    A3 --> A3_1
+    A3 --> A3_2
+    A3 --> A3_3
+    A3 --> A3_4
+
+    A3_1 -->|Impacto| A1_3
+    A3_2 -->|Impacto| A2_3
+    A3_3 -->|Impacto| A2_1
+    A3_4 -->|Impacto| A2_4
